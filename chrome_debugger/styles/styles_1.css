@@ -56,16 +56,21 @@ ul {
   animation-name: jumps;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .error_msg2 img {
   animation-name: jumps;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes jumps {
-  100% {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
     transform: rotate(360deg);
   }
 }

@@ -38,7 +38,9 @@ ul {
   margin: auto;
   text-align: left;
 }
-
+.js_content {
+  margin-top: 20rem;
+}
 .js_content button {
   color: #dee9dd;
   background-color: #ffeb3b;

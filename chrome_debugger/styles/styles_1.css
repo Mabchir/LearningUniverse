@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2rem;
+  padding: 0;
+}
+.content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.navbuttons {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbuttons button {
+  margin: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 12%;
+}
+.css_content {
+  text-align: center;
+}
+.css_content ul {
+  list-style-type: circle;
+  line-height: 2rem;
+  padding: 0;
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+}
+
+.js_content button {
+  color: #dee9dd;
+  background-color: #ffeb3b;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 3rem;
+}
+.error_msg1,
+.error_msg2,
+.success_msg {
+  display: none;
+}
+
+.success_msg img {
+  animation-name: jumps;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.error_msg2 img {
+  animation-name: jumps;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jumps {
+  100% {
+    transform: rotate(360deg);
+  }
+}

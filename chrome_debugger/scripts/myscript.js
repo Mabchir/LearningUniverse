@@ -5,9 +5,10 @@ button_1.addEventListener("click", handle_button1);
 
 function handle_button1() {
   var error_msg1 = document.getElementsByClassName("error_msg1")[0];
-  var mariem_img = document.getElementById("meriam");
+  var mariem_img = document.getElementById("meriem");
 
   if (mariem_img == null) {
+    console.log("Image not found");
     error_msg1.style.display = "block";
   } else {
     var success_msg = document.getElementsByClassName("success_msg")[0];

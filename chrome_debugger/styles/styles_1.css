@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  overflow: visible;
 }
 
 ul {
@@ -50,6 +51,10 @@ ul {
 .error_msg2,
 .success_msg {
   display: none;
+}
+
+.uncover_text {
+  margin: 6rem;
 }
 
 .success_msg img {
